@@ -1,0 +1,16 @@
+.loginOrigination{
+  background: #013668;
+  width:280px;
+  border:solid 0px #000000;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  color: #fff;
+}
+
+.inDataOrigination{
+  width:280px;
+  background: #013668;
+  color: #fff;
+  text-align: right;
+}

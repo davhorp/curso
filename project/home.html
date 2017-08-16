@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sistema Bancario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link href="src/css/home.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <div class="loginOrigination">
+          <p style="display: block; margin: 10px;">
+            Iniciar Sesi&oacute;n
+          </p>
+        </div>
+        <!--Aqui va a ir los campos para insertar usuario y password-->
+        <div>
+          <div class="text-info" style="display: block; margin: 10px;">
+            Usuario:
+          </div>
+          <input id="txtName" class="inDataOrigination"
+            type="text" placeholder="Usuario" size="50px">
+          <div class="text-info" style="display: block; margin: 10px;">
+            Contrase&ntilde;a:
+          </div>
+          <input id="txtPass" class="inDataOrigination" type="password"
+          placeholder="Contrase&ntilde;a" size="50px">
+          <button class="btn btn-success"
+            style="display: block; margin: 10px;"
+            onclick="authentication();">
+            Aceptar
+          </button>
+          <!--mensaje de error al validar-->
+          <div class="text-info">
+            <p class="label label-danger" id="errorP"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </body>
+  <script src="src/js/module.js"></script>
+</html>
